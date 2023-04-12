@@ -1,0 +1,66 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#6c7880;
+}
+.head{
+    display:flex;
+    color:white;
+    background-color:#242826; 
+}
+header h3{
+    padding-left:6%;
+    color:#84d99b;
+}
+.head-bar{
+    display:flex;
+    padding-left:40%;
+}
+header a{
+    color:white;
+    font-size:16px; 
+    padding:20px 50px 20px 40px;
+    text-decoration:none;
+}
+header a:hover{
+    background-color:#4a4d4c;
+}
+.card{
+    display:flex;
+    width:650px;
+    height:150px;
+    margin:10px 230px ;
+    padding:50px 80px;
+    color:white;
+    background-image:url("https://images.squarespace-cdn.com/content/v1/5835d948414fb5a615f7641e/1481519058032-2V7L61ZFLEDNYTL2CYU7/Food+Photo+Background.jpg?format=2500w");
+    background-size:100% 100%;
+    justify-content:space-between;
+    border-radius:10px;
+}
+.fav {
+    margin:0px;
+    padding-right:60px;
+}
+.fav ul li a{
+    color:white;
+    text-decoration:none;
+}
+.fav ul li a:hover{
+    color:#a6a2f2;
+}
+.food{
+    width:40%;
+    margin:0 auto;
+}
+.image img{
+    width:500px;
+    height:500px;
+    border-radius:20px;
+}
+.name{
+    text-align:center;
+    margin:0px 0px 50px 0px;
+}
+html{
+    scroll-behavior:smooth;
+}
